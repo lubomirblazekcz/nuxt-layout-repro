@@ -7,7 +7,9 @@
 </script>
 
 <template>
-    <div class="page-login">
-        <NuxtLink to="/page-1">Login</NuxtLink>
-    </div>
+    <NuxtLayout>
+        <div class="page-login">
+            <NuxtLink to="/page-1">Login</NuxtLink>
+        </div>
+    </NuxtLayout>
 </template>
